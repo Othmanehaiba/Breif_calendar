@@ -1,3 +1,6 @@
+*{
+    font-family: "Inter", sans-serif;
+}
 .mois{
     background-color: aquamarine;
     display: flex;
@@ -15,17 +18,29 @@
     display: flex;
     justify-content: space-around;
     margin-left: 5px;
-    font-family: "Inter", sans-serif;
-
 }
 .milieu_calendar{
     display: grid;
     grid-template-columns: repeat(7,1fr);
     grid-template-rows: repeat(1,1fr);
+    position: relative;
 }
 .days:hover:hover {
     background-color: #e9ecef;
 }
-button{
-    
+.pop_up{
+    border: 2px solid rgb(215, 181, 181);
+    width: 50%;
+    height: 10rem;
+    /* border-radius: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: rgb(255, 187, 187);
+    position: absolute;
+    /* display: none; */
+}
+form{
+    display: ;
 }
