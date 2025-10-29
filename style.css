@@ -9,7 +9,7 @@
     border: 1px solid black;
     height: 100px;
     cursor: pointer;
-
+    
 }
 .days_name{
     display: flex;
@@ -25,4 +25,7 @@
 }
 .days:hover:hover {
     background-color: #e9ecef;
+}
+button{
+    
 }
