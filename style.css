@@ -1,0 +1,28 @@
+.mois{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: bold; 
+}
+.days{
+    border: 1px solid black;
+    height: 100px;
+    cursor: pointer;
+
+}
+.days_name{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+    font-family: "Inter", sans-serif;
+
+}
+.milieu_calendar{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.days:hover:hover {
+    background-color: #e9ecef;
+}
