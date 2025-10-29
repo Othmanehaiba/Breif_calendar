@@ -1,20 +1,16 @@
-const days = document.querySelector(".days");
+const days_name = document.querySelectorAll(".days_name");
 
-const popUp = document.querySelector(".pop_up")
-// const form = document.createElement("form");
-// const input = document.createElement("input");
+const popUp = document.createElement("div");
+const form = document.createElement("form");
+const input = document.createElement("input");
 // label.textContent = "Name";
 // document.body.appendChild(form);
 // form.appendChild(input);
 // input.setAttribute("type", "text");
 // form.style.display = "none";
-
-// days.addEventListener("click", () => {
-//   popUp.style.display = 'block'
+// for(let i = 0 ; i < days_name.length() ; i++){
+//   day.addEventListener("click", () => {
+//   popUp.classList.toggle("show");
 // });
-
-form.forEach(element =>{
-  element.addEventListener('click', () => {
-    formul.style.display = 'block'; 
-  });
-});
+// }
+console.log(days_name.length)
