@@ -1,16 +1,22 @@
 const days_name = document.querySelectorAll(".days_name");
+const popUp = document.querySelector('.pop_up');
+const day = document.querySelector(".milieu_calendar");
 
-const popUp = document.createElement("div");
-const form = document.createElement("form");
-const input = document.createElement("input");
+
+// const form = document.createElement("form");
+// const input = document.createElement("input");
 // label.textContent = "Name";
 // document.body.appendChild(form);
 // form.appendChild(input);
 // input.setAttribute("type", "text");
 // form.style.display = "none";
-// for(let i = 0 ; i < days_name.length() ; i++){
+// for(let i = 0 ; i < day.length() ; i++){
 //   day.addEventListener("click", () => {
 //   popUp.classList.toggle("show");
 // });
 // }
-console.log(days_name.length)
+
+day.addEventListener('click', () => {
+  popUp.style.display = 'block';  
+});
+
