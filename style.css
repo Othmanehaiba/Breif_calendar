@@ -47,6 +47,11 @@
   position: absolute;
   display: none;
 }
+#form{
+  display: block;
+
+  
+}
 #f ,#g{
     background-color: gray;
     cursor: auto;
