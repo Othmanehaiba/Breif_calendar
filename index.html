@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -53,21 +53,24 @@
       </section>
       <div class="container">
         <div class="pop_up">
-          <form action="">
+          <form action="" id="form">
             <input type="text" placeholder="Name" required />
-            <input type="text" placeholder="Heure de Début" required />
-            <input type="text" placeholder="Heure de Fin" required />
+            <input type="time" placeholder="Heure de Début" required />
+            <input type="time" placeholder="Heure de Fin" required />
             <input type="number" placeholder="Nombre De Personne" required />
             <select name="Type de reservation" id="">
-              <option value="" disabled selected>select</option>
+              <option value="" disabled selected>Type de Réservation</option>
               <option value="">VIP</option>
               <option value="">Anniversaire</option>
               <option value="">Standard</option>
               <option value="">En Group</option>
             </select>
+            <input type="submit">
           </form>
         </div>
       </div>
     </main>
+
+    <script src="main.js" defer></script>
   </body>
 </html>
