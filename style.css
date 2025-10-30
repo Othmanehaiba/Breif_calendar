@@ -36,23 +36,27 @@
 
 }
 .pop_up {
-  border: 2px solid rgb(215, 181, 181);
+  /* border: 2px solid rgb(215, 181, 181);
   width: 50%;
   height: 10rem;
-  /* border-radius: 30%; */
+  border-radius: 30%; 
   justify-self: center;
   align-self: center;
   margin: auto;
   background: rgb(255, 187, 187);
-  position: absolute;
+  position: absolute; */
   display: none;
 }
 #form{
   display: block;
 
-  
 }
 #f ,#g{
     background-color: gray;
     cursor: auto;
+}
+.days{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
