@@ -64,7 +64,57 @@
       </section>
       <div class="container">
         <div class="pop_up">
-          
+           <div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded-4">
+      <h3 class="text-center mb-4 text-primary">Formulaire de Réservation</h3>
+
+      <form>
+        <!-- Nom -->
+        <div class="mb-3">
+          <label for="name" class="form-label">Nom complet</label>
+          <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" required>
+        </div>
+
+        <!-- Heure de début -->
+        <div class="mb-3">
+          <label for="heureDebut" class="form-label">Heure de début</label>
+          <input type="time" class="form-control" id="heureDebut" required>
+        </div>
+
+        <!-- Heure de fin -->
+        <div class="mb-3">
+          <label for="heureFin" class="form-label">Heure de fin</label>
+          <input type="time" class="form-control" id="heureFin" required>
+        </div>
+
+        
+        <div class="mb-3">
+          <label for="nbrPersonne" class="form-label">Nombre de personnes</label>
+          <input type="number" class="form-control" id="nbrPersonne" min="1" placeholder="Ex: 4" required>
+        </div>
+
+        
+        <div class="mb-3">
+          <label for="typeReservation" class="form-label">Type de réservation</label>
+          <select class="form-select" id="typeReservation" required>
+            <option value="" selected disabled>Choisissez un type</option>
+            <option value="restaurant">Restaurant</option>
+            <option value="salle">Salle de réunion</option>
+            <option value="evenement">Événement</option>
+          </select>
+        </div>
+
+        <!-- Bouton -->
+        <div class="d-flex justify-content-between">
+          <button type="reset" class="btn btn-secondary">Annuler</button>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Script Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         </div>
       </div>
     </main>
