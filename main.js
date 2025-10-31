@@ -9,7 +9,7 @@ let curr_day = null;
 
 popUp.style.display = "none";
 
-let days = document.querySelectorAll(".days");
+const days = document.querySelectorAll(".days");
 
 days.forEach((day) => {
   day.addEventListener("click", () => {
@@ -20,22 +20,23 @@ days.forEach((day) => {
 
 cancel.addEventListener("click", function () {
   popUp.style.display = "none";
-}); 
+});
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   let name = document.getElementById("name").value;
   if (!curr_day) return;
-  else{
+  else {
     curr_day = null;
   }
-
+  console.log("created by succes");
   let afficher = document.createElement("div");
   afficher.classList.add("affichage");
   afficher.textContent = name;
 
   curr_day.appendChild(afficher);
+  console.log("appended by succes")
 
   form.reset();
   popUp.style.display = "none";
