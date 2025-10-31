@@ -2,24 +2,27 @@
   font-family: "Inter", sans-serif;
 }
 .mois {
-  
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
   font-size: bold;
 }
-.weekend_div , .days {
+.weekend_div,
+.days {
   border: 1px solid black;
 }
-.days{
+.days {
+  /* position: relative;
+  vertical-align: top;
+  padding: 5px; */
   cursor: pointer;
   text-align: center;
 }
 .days_name {
   display: grid;
-  grid-template-columns: repeat(7 , 1fr);
+  grid-template-columns: repeat(7, 1fr);
 }
-.day{
+.day {
   display: flex;
   justify-content: center;
 }
@@ -30,7 +33,8 @@
   position: relative;
   width: 100%;
 }
-.weekend_div , .days:hover:hover {
+.weekend_div,
+.days:hover:hover {
   background-color: #e9ecef;
 }
 
@@ -39,30 +43,40 @@
   justify-content: center;
   width: auto;
   height: auto;
-
 }
 .pop_up {
   position: absolute;
   top: 0%;
-  
 }
-#form{ 
+#form {
   display: block;
-
 }
-#d6 ,#d7 , #d13 , #d14 , #d20 , #d21 , #d27 , #d28{
-    background-color: gray;
-    cursor: auto;
+#d6,
+#d7,
+#d13,
+#d14,
+#d20,
+#d21,
+#d27,
+#d28 {
+  background-color: gray;
+  cursor: auto;
 }
-.weekend_div{
+.weekend_div {
   display: flex;
   justify-content: center;
   width: 100%;
-
 }
-.milieu_calendar div{
+.milieu_calendar div {
   height: 18vh;
 }
-.affichage{
-  
+.affichage {
+  background-color: #b3e5fc;
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin-top: 4px;
+  font-size: 12px;
+  text-align: center;
+  color: #01579b;
+  display: block;
 }
