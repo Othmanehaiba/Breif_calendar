@@ -17,6 +17,8 @@
   padding: 5px; */
   cursor: pointer;
   text-align: center;
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 .days_name {
   display: grid;
@@ -67,7 +69,7 @@
   justify-content: center;
   width: 100%;
 }
-.milieu_calendar div {
+.milieu_calendar > div {
   height: 18vh;
 }
 .affichage {
@@ -79,4 +81,5 @@
   text-align: center;
   color: #01579b;
   display: block;
+  height: 20px;
 }
