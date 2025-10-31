@@ -8,6 +8,7 @@ let submit = document.getElementById("submit");
 const days_name = document.querySelectorAll(".days_name");
 const popUp = document.querySelector(".pop_up");
 const day = document.querySelector(".milieu_calendar");
+let days = document.getElementsByClassName('days');
 let cancel = document.getElementById("cancel");
 // const name = document.getElementById(name)
 
@@ -16,7 +17,8 @@ let weekend = document.getElementById("d6");
 
 day.addEventListener("click", () => {
   popUp.style.display = "block";
-  
+  hide = days.id;
+  console.log(hide)
 });
 cancel.addEventListener('click', function(){
   popUp.style.display = "none"
