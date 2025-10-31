@@ -47,30 +47,50 @@
           <span>Ven</span>
         </div>
         <div class="day">
-          <span style="color: grey">Sam</span>
+          <span style="color: grey;" >Sam</span>
         </div>
         <div class="day">
           <span style="color: grey">Dim</span>
         </div>
       </div>
       <section class="milieu_calendar">
-        <div class="days" id="a"><p>1</p></div>
-        <div class="days" id="b"><p>2</p></div>
-        <div class="days" id="c"><p>3</p></div>
-        <div class="days" id="d"><p>4</p></div>
-        <div class="days" id="e"><p>5</p></div>
-        <div class="days" id="f"><p>6</p></div>
-        <div class="days" id="g"><p>7</p></div>
+        <div class="days" id="d1"><p>1</p></div>
+        <div class="days" id="d2"><p>2</p></div>
+        <div class="days" id="d3"><p>3</p></div>
+        <div class="days" id="d4"><p>4</p></div>
+        <div class="days" id="d5"><p>5</p></div>
+        <div class="days" id="d6"><p>6</p></div>
+        <div class="days" id="d7"><p>7</p></div>
+        <div class="days" id="d8"><p>8</p></div>
+        <div class="days" id="d9"><p>9</p></div>
+        <div class="days" id="d10"><p>10</p></div>
+        <div class="days" id="d11"><p>11</p></div>
+        <div class="days" id="d12"><p>12</p></div>
+        <div class="days" id="d13"><p>13</p></div>
+        <div class="days" id="d14"><p>14</p></div>
+        <div class="days" id="d15"><p>15</p></div>
+        <div class="days" id="d16"><p>16</p></div>
+        <div class="days" id="d17"><p>17</p></div>
+        <div class="days" id="d18"><p>18</p></div>
+        <div class="days" id="d19"><p>19</p></div>
+        <div class="days" id="d20"><p>20</p></div>
+        <div class="days" id="d21"><p>21</p></div>
+        <div class="days" id="d22"><p>22</p></div>
+        <div class="days" id="d23"><p>23</p></div>
+        <div class="days" id="d24"><p>24</p></div>
+        <div class="days" id="d25"><p>25</p></div>
+        <div class="days" id="d26"><p>26</p></div>
+        <div class="days" id="d27"><p>27</p></div>
+        <div class="days" id="d28"><p>28</p></div>
+        <div class="days" id="d29"><p>29</p></div>
+        <div class="days" id="d30"><p>30</p></div>
+        <div class="days" id="d31"><p>31</p></div>
       </section>
       <div class="container">
         <div class="pop_up">
           <div class="container mt-5">
             <div class="card shadow-lg p-4 rounded-4">
-              <h3 class="text-center mb-4 text-primary">
-                Formulaire de Réservation
-              </h3>
-
-              <form>
+              <form class="formulaire">
                 <div class="mb-3">
                   <label for="name" class="form-label">Nom complet</label>
                   <input
@@ -134,8 +154,9 @@
                 </div>
 
                 <div class="d-flex justify-content-between">
-                  <button type="submit" class="btn btn-primary">Envoyer</button>
-                  <button type="reset" class="btn btn-secondary">
+                  <input type="hidden" id="hidden">
+                  <button type="submit" class="btn btn-primary" id="submit">Envoyer</button>
+                  <button type="reset" class="btn btn-secondary" id="cancel">
                     Annuler
                   </button>
                 </div>
