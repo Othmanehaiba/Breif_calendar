@@ -16,10 +16,12 @@ let weekend = document.getElementById("d6");
 
 popUp.style.display = "none";
 
-day.addEventListener("click", () => {
+day.addEventListener("click", (e) => {
   popUp.style.display = "block";
-  console.log(hide);
+  const hide = e.target.dataset.id;
+  console.log(hide)
 });
+
 cancel.addEventListener("click", function () {
   popUp.style.display = "none";
 });
@@ -33,10 +35,9 @@ form.addEventListener("submit", (e) => {
   let name = document.getElementById("name").value;
   let afficher = document.createElement("div");
   afficher.innerHTML = `<span class= "affichage">${name}</span>`;
+  
 
-  let index = parseInt(hide.value);
-  days[index].append(afficher);
-  console.log(afficher);
+  
 });
 
 // formulaire.addEventListener('submit' ,function(e){
