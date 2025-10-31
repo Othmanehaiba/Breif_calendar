@@ -1,2 +1,0 @@
-form contient: name , heureDebut , heureFin , nbrPersone , typeReservation;
-<input type="email" placeholder="Email*" required class="input_email"/>
