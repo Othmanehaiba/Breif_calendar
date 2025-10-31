@@ -12,9 +12,6 @@
   border: 1px solid black;
 }
 .days {
-  /* position: relative;
-  vertical-align: top;
-  padding: 5px; */
   cursor: pointer;
   text-align: center;
   overflow-y: scroll;

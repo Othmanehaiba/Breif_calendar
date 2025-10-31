@@ -38,3 +38,4 @@ form.addEventListener("submit", (e) => {
   form.reset();
   popUp.style.display = "none";
 });
+
