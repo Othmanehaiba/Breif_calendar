@@ -27,9 +27,6 @@ form.addEventListener("submit", (e) => {
 
   let name = document.getElementById("name").value;
   if (!curr_day) return;
-  else {
-    curr_day = null;
-  }
   console.log("created by succes");
   let afficher = document.createElement("div");
   afficher.classList.add("affichage");
